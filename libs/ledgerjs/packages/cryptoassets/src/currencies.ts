@@ -99,6 +99,54 @@ const ethereumUnits = (name, code) => [
 // to fix that we should always have the 'main' currency of the managerapp first in this list
 // e.g for Ethereum manager Ethereum is first in the list and other coin are in the bottom of the list
 export const cryptocurrenciesById: Record<CryptoCurrencyId, CryptoCurrency> = {
+  emerald: {
+    type: "CryptoCurrency",
+    id: "emerald",
+    coinType: CoinType.ETH,
+    name: "Oasis Emerald",
+    managerAppName: "Ethereum",
+    ticker: "ROSE",
+    scheme: "emerald",
+    color: "#F0B90A",
+    family: "evm",
+    ethereumLikeInfo: {
+      chainId: 42262,
+    },
+    units: ethereumUnits("ROSE", "ROSE"),
+    explorerViews: [
+      {
+        tx: "https://explorer.dev.oasis.io/mainnet/emerald/tx/$hash",
+        address: "https://explorer.dev.oasis.io/mainnet/emerald/address/$address",
+        token: "https://explorer.dev.oasis.io/mainnet/emerald/address/$address/tokens/erc-20#$contractAddress",
+      },
+    ],
+    keywords: ["oasis", "rose"],
+    explorerId: "bnb",
+  },
+  sapphire: {
+    type: "CryptoCurrency",
+    id: "sapphire",
+    coinType: CoinType.ETH,
+    name: "Oasis Sapphire",
+    managerAppName: "Ethereum",
+    ticker: "ROSE",
+    scheme: "sapphire",
+    color: "#F0B90A",
+    family: "evm",
+    ethereumLikeInfo: {
+      chainId: 42262,
+    },
+    units: ethereumUnits("ROSE", "ROSE"),
+    explorerViews: [
+      {
+        tx: "https://explorer.dev.oasis.io/mainnet/sapphire/tx/$hash",
+        address: "https://explorer.dev.oasis.io/mainnet/sapphire/address/$address",
+        token: "https://explorer.dev.oasis.io/mainnet/sapphire/address/$address/tokens/erc-20#$contractAddress",
+      },
+    ],
+    keywords: ["oasis", "rose"],
+    explorerId: "bnb",
+  },
   aptos: {
     type: "CryptoCurrency",
     id: "aptos",

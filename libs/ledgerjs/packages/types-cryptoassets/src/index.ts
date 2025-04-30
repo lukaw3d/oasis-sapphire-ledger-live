@@ -3,6 +3,8 @@ import { CoinType } from "./slip44";
 // All cryptocurrency ids
 // list should be append only. **do not modify existing ids**
 export type CryptoCurrencyId =
+  | "sapphire"
+  | "emerald"
   | "aeternity"
   | "aion"
   | "akroma"

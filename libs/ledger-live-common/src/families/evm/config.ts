@@ -99,6 +99,34 @@ const evmConfig: CurrencyLiveConfigDefinition = {
       },
     },
   },
+  config_currency_emerald: {
+    type: "object",
+    default: {
+      status: "active",
+      node: {
+        type: "external",
+        uri: "https://emerald.oasis.io",
+      },
+      explorer: {
+        type: "blockscout",
+        uri: "https://explorer.oasis.io/mainnet/emerald/",
+      },
+    },
+  },
+  config_currency_sapphire: {
+    type: "object",
+    default: {
+      status: "active",
+      node: {
+        type: "external",
+        uri: "https://sapphire.oasis.io",
+      },
+      explorer: {
+        type: "blockscout",
+        uri: "https://explorer.oasis.io/mainnet/sapphire/",
+      },
+    },
+  },
   config_currency_sonic: {
     type: "object",
     default: {
