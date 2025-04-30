@@ -137,6 +137,7 @@ export const cryptocurrenciesById: Record<CryptoCurrencyId, CryptoCurrency> = {
       chainId: 23294,
     },
     units: ethereumUnits("ROSE", "ROSE"),
+    // still noAccountToCreate error. maybe https://github.com/LedgerHQ/app-ethereum/blob/a40bd4e/src/network.c#L11
     explorerViews: [
       {
         tx: "https://explorer.dev.oasis.io/mainnet/sapphire/tx/$hash",
