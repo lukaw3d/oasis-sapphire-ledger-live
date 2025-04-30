@@ -109,7 +109,7 @@ const evmConfig: CurrencyLiveConfigDefinition = {
       },
       explorer: {
         type: "blockscout",
-        uri: "https://explorer.oasis.io/mainnet/emerald/",
+        uri: "https://explorer.oasis.io/mainnet/emerald",
       },
     },
   },
@@ -123,7 +123,7 @@ const evmConfig: CurrencyLiveConfigDefinition = {
       },
       explorer: {
         type: "blockscout",
-        uri: "https://explorer.oasis.io/mainnet/sapphire/",
+        uri: "https://explorer.oasis.io/mainnet/sapphire",
       },
     },
   },

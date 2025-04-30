@@ -134,7 +134,7 @@ export const cryptocurrenciesById: Record<CryptoCurrencyId, CryptoCurrency> = {
     color: "#F0B90A",
     family: "evm",
     ethereumLikeInfo: {
-      chainId: 42262,
+      chainId: 23294,
     },
     units: ethereumUnits("ROSE", "ROSE"),
     explorerViews: [
