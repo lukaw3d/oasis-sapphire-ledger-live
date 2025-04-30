@@ -75,8 +75,6 @@ export type DefaultFeature = Feature<unknown>;
  * Currency Features type.
  */
 export type CurrencyFeatures = {
-  currencyEmerald: DefaultFeature;
-  currencySapphire: DefaultFeature;
   currencyAvalancheCChain: DefaultFeature;
   currencyStacks: DefaultFeature;
   currencyOptimism: DefaultFeature;
